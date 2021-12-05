@@ -25,13 +25,13 @@ html{
     font-size: 25px;
     top: 15px;
     left: 20px;
+    cursor: pointer;
+    z-index: 1;
 }
-
 .card__cart{
     left: unset;
     right: 20px;
 }
-
 .card__img{
     width: 90%;
     transition: 0.7s;
@@ -73,6 +73,8 @@ html{
     background-color: #DADADA;
     margin: 0 10px;
     border-radius: 5px;
+    cursor: pointer;
+
 }
 .card__color{
     display: flex;
@@ -81,6 +83,7 @@ html{
 .card__color span{
     padding: 10px;
     margin: 0 10px;border-radius: 50%;
+    cursor: pointer;
 }
 .card__color .green{
     background-color: #008000;
